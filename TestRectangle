@@ -1,0 +1,22 @@
+package com.company;
+
+public class Main {
+    public static void main(String[] args){
+        //instantiate three objects of type rectangle
+        Rectangle r1 = new Rectangle(2, 1);
+        Rectangle r2 = new Rectangle();
+        Rectangle r3 = new Rectangle(3, 9);
+
+        //update objects data
+        r1.setHeight(5);
+        r2.setHeight(8.3);
+        r2.setLength(5.1);
+        r3.setHeight(2);
+        r3.setLength(3.4);
+
+        //print objects toString()
+        System.out.println(r1);
+        System.out.println(r2);
+        System.out.println(r3);
+    }
+}
